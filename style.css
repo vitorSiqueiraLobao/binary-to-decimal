@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.conversor{
+    border-radius: 15px;
+   margin-top: 50px;
+    text-align: center;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 235, 56);
+    width: 30%;
+}
+input[name = "text-box"],input[name="button"]{
+    margin: auto;
+    
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+input[name = "text-box"]{
+    text-transform: uppercase;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+input[name = "button"]{
+    text-transform: uppercase;
+    color: rgb(109, 109, 109);
+    width: 40%;
+    height: 29px;
+    border-radius: 20px;
+    background-color: rgb(255, 235, 56);
+    border-color: white;
+    border-style: solid;
+    transition-duration: 0.5s;
+}
+
+input[name = "button"]:hover{
+    width: 45%;
+    background-color: white;
+    color: black;
+}
+
+input[name="button"]:active{
+    background-color: rgb(255, 235, 56);
+}
